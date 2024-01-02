@@ -2,7 +2,6 @@ package com.yupi.xoj.model.dto.question;
 
 import com.yupi.xoj.common.PageRequest;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 import java.util.List;
@@ -10,10 +9,9 @@ import java.util.List;
 /**
  * 查询请求
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @Author : SuperXCR
+ * @Create 2023-12-27
  */
-@EqualsAndHashCode(callSuper = true)
 @Data
 public class QuestionQueryRequest extends PageRequest implements Serializable {
 
@@ -21,16 +19,6 @@ public class QuestionQueryRequest extends PageRequest implements Serializable {
      * id
      */
     private Long id;
-
-    /**
-     * id
-     */
-    private Long notId;
-
-    /**
-     * 搜索词
-     */
-    private String searchText;
 
     /**
      * 标题
@@ -43,24 +31,19 @@ public class QuestionQueryRequest extends PageRequest implements Serializable {
     private String content;
 
     /**
-     * 标签列表
+     * 标签列表（json 数组）
      */
     private List<String> tags;
 
     /**
-     * 至少有一个标签
+     * 题目答案
      */
-    private List<String> orTags;
+    private String answer;
 
     /**
      * 创建用户 id
      */
     private Long userId;
-
-    /**
-     * 收藏用户 id
-     */
-    private Long favourUserId;
 
     private static final long serialVersionUID = 1L;
 }
