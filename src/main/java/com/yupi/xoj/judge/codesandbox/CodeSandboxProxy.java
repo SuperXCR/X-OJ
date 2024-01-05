@@ -4,18 +4,13 @@ import com.yupi.xoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.yupi.xoj.judge.codesandbox.model.ExecuteCodeResponse;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @Author : SuperXCR
- * @Create 2024-01-03
- *
- * 代码沙箱增强
- */
 @Slf4j
 public class CodeSandboxProxy implements CodeSandbox {
 
     private final CodeSandbox codeSandbox;
 
-    public CodeSandboxProxy (CodeSandbox codeSandbox) {
+
+    public CodeSandboxProxy(CodeSandbox codeSandbox) {
         this.codeSandbox = codeSandbox;
     }
 

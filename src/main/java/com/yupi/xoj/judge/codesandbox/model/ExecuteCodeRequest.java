@@ -7,11 +7,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-/**
- * @Author : SuperXCR
- * @Create 2024-01-03
- */
-
 @Data
 @Builder
 @NoArgsConstructor

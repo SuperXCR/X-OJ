@@ -1,18 +1,11 @@
 package com.yupi.xoj.judge.codesandbox.model;
 
-import com.yupi.xoj.model.dto.question.JudgeConfig;
-import com.yupi.xoj.model.dto.questionsubmit.JudgeInfo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-
-/**
- * @Author : SuperXCR
- * @Create 2024-01-03
- */
 
 @Data
 @Builder
