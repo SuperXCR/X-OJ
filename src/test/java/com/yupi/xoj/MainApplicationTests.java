@@ -1,6 +1,6 @@
 package com.yupi.xoj;
 
-import com.yupi.xoj.config.WxOpenConfig;
+import com.yupi.xoj.esdao.config.WxOpenConfig;
 
 import javax.annotation.Resource;
 

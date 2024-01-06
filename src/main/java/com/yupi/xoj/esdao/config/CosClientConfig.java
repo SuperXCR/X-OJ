@@ -1,4 +1,4 @@
-package com.yupi.xoj.config;
+package com.yupi.xoj.esdao.config;
 
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.ClientConfig;

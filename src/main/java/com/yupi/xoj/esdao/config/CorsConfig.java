@@ -1,4 +1,4 @@
-package com.yupi.xoj.config;
+package com.yupi.xoj.esdao.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

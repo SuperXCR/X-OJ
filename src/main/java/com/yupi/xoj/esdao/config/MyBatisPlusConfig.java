@@ -1,4 +1,4 @@
-package com.yupi.xoj.config;
+package com.yupi.xoj.esdao.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;

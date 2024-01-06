@@ -1,6 +1,6 @@
 package com.yupi.xoj.manager;
 
-import com.yupi.xoj.config.CosClientConfig;
+import com.yupi.xoj.esdao.config.CosClientConfig;
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.model.PutObjectRequest;
 import com.qcloud.cos.model.PutObjectResult;

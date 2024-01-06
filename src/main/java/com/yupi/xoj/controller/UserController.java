@@ -6,7 +6,7 @@ import com.yupi.xoj.common.BaseResponse;
 import com.yupi.xoj.common.DeleteRequest;
 import com.yupi.xoj.common.ErrorCode;
 import com.yupi.xoj.common.ResultUtils;
-import com.yupi.xoj.config.WxOpenConfig;
+import com.yupi.xoj.esdao.config.WxOpenConfig;
 import com.yupi.xoj.constant.UserConstant;
 import com.yupi.xoj.exception.BusinessException;
 import com.yupi.xoj.exception.ThrowUtils;
